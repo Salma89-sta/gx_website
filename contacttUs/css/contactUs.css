@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    background: linear-gradient(180deg, rgb(4, 9, 47) 0%, rgb(243, 108, 33) 46.88%, rgb(0, 9.04, 46.75) 100%);
+}
+.contact-us-page{
+    position: relative;
+    background-image: url("../img/metaverse.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.get-in-touch img{
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    margin-bottom: 0px;
+    height: 75%;
+    width: 100%;
+    display: none;
+}
+/* h1 styling */
+.contact-us-head h1{
+    color: white;
+    font-size: 5.5rem;
+    text-align: end;
+    padding-right: 20%;  
+    padding-top: 7%;
+}
+
+/* above layer styling */
+.over-layer {
+    position: relative;
+}
+.line{
+    position: absolute;
+    width: 90px;
+    height: 0.75rem;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.over-layer .get{
+    font-family: 'Metal Gear Solid 2' ;
+    font-size:5.5rem ;
+    color: #F24E1E;
+    margin: 0 0 0 0;
+    position: relative;
+}
+.tester
+{
+    position: absolute;
+    bottom: 24%;
+    z-index: -22    ;
+    background-color: #fff;
+    left: 0;
+    height: 12%;
+    width: 15%;
+}
+
+.over-layer h2{
+    font-family: 'Metal Gear Solid 2' ;
+    font-size:5.5rem ;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #fff;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.left-side {
+    z-index: 99;
+}
+
+
+/* form styling */
+.register-input {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid  #F24E1E;
+    color: #fff;
+    font-family: "Poppins", Helvetica !important;
+    font-weight: 500; 
+    font-size: 1rem;
+}
+
+.register-input:focus {
+    border-color:  white;
+    color: #fff;
+    outline: 0;
+}
+
+ 
+:-moz-placeholder {
+    color: white;
+    font-weight: 300;
+ }
+ 
+::-moz-placeholder {
+    color: white;
+    font-weight: 300;
+    opacity: 1;
+ }
+ 
+::-webkit-input-placeholder {
+    color: white;
+    font-weight: 300;
+ }
+ 
+ :-ms-input-placeholder {
+    color:white;
+    font-weight: 300;
+ }
+ 
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+    color:white;
+
+}
+
+ .button-sub{
+    margin-top:3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 92px;
+    border: 2.5px solid;
+    border-color: #F24E1E; 
+    color: white;
+    font-family: "Poppins", Helvetica !important;
+
+}
+.button-sub:hover{
+    color: white;
+    border: 2px solid #fff;
+}
+
+.right-side {
+    z-index: 77;
+    margin-top: 7%;
+}
+
+.right-side span h6{
+    color: white;
+    font-family: 'Poppins';
+}
+.icons-style{
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.icons-style a{
+    color: #F24E1E;
+    font-size: 2rem;
+    padding: 0 10px;
+}
+.icons-style a:hover{
+    color: #ffffff;
+
+}
+.test{
+    color: #EEA379;
+    font-size: 2rem;
+}
+
+.for-right-side{
+    margin-top: 15%;
+    display: flex;
+    text-align: center;
+}
+
+
+/* start scroll to top button  */
+.up-button {
+    display: none;
+    background-color: #FD3900;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+.up-button:hover {
+    background-color: #F24E1E;
+}
+  
+  .up-button #to-top-button {
+   font-size: 1rem;
+    margin-left: 28%;
+    margin-top: 25%;
+  }
+/* end scroll to top button  */
+
+/* start media query */
+@media screen and (max-width:600px){
+
+    .contact-us-head h1{
+        font-size: 3.5rem;
+    }
+    .contact-us-head span{
+        font-size: 3.5rem;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .over-layer .get{
+        font-size: 3.5rem;
+        padding-top: 20px;
+    }
+    .over-layer h2{
+        font-size: 3.5rem;
+    }
+
+    .contact-us-head{
+        background-image: rgba(0,0,0,0.5);
+    }
+    .get-in-touch{
+        background-color: rgba(4, 9, 47, 0.80);
+        border-radius: 25px 25px 0px 0px ;
+    }
+}
+
+@media screen and (min-width:600px)and (max-width:992px){
+    .get-in-touch{
+        background-color: rgba(4, 9, 47, 0.80);
+        border-radius: 25px 25px 0px 0px ;
+    }
+
+}

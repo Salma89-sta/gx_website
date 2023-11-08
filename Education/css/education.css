@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'Metal Gear Solid 2';
+    src: url('/fonts/MGS2.ttf') format('truetype');
+  }
+.dark-blue{
+    position: relative;
+    height: 80vh;     
+    background-color: #0B1143;
+}
+/* header styling */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+
+    width: 100%; 
+}
+
+.header img{
+ height: 100%;
+width: 100%;
+}
+
+.p 
+{
+    margin-top: 50px;
+}
+/* back to the last page button styling */
+.back-button {
+    position: absolute;
+    background-color: #F24E1E;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+.back-button #i {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* header title styling */
+
+.header-title .title{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Metal Gear Solid 2";
+    font-size: 4.5rem;
+ }
+.header-title .line-title{
+    width: 8%;
+    height: 2%;
+    margin-top: -10%;
+    margin-left: 10%;
+    background-color: red;
+}
+
+
+/* start scroll to top button  */
+.up-button {
+    display: none;
+    background-color: #FD3900;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff;
+}
+
+.up-button:hover {
+    background-color: #F24E1E;
+}
+
+.up-button #to-top-button {
+    font-size: 1.5rem;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+/* end scroll to top button  */
+.pragrph-title
+{
+    color: #fff;
+}
+
+.pragrph-title  p
+{
+    font-size: 1.3rem;
+    text-align: justify;
+    /* font-weight: 400; */
+    background-image: url('../img/UNDERtextrec.png');
+    padding: 10px;
+    background-repeat:no-repeat;
+
+
+}
+.Certified 
+{
+    /* border-left: 1px solid #F24E1E; */
+    margin-top: 50px;
+}
+
+.Certified h1
+{
+text-align: center;
+font-size: 3.0rem;
+}
+
+.underline-title 
+{
+    background-color: #F24E1E;
+    width: 50%;
+    height: 3px;
+    margin: auto;
+}
+
+.Certified-links
+{
+    border-left: 1px solid #F24E1E;
+    list-style:none;
+}
+.Certified-links li 
+{
+    padding-bottom: 10px;
+}
+.Certified-links i 
+{
+    color: #F24E1E;
+}
+.Certified-links a 
+{
+     color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.Certified-links a:hover
+{
+    color: #F24E1E;
+}
+/* ---------------------------------------start media query--------------------------------------- */
+
+
+@media screen and (min-width:992px)and (max-width:1200px) {
+    .header-title .line-title{
+        width: 8%;
+        height: 2%;
+        margin-top: -12%;
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (max-width:992px)and (min-width:768px) {
+    .header-title .line-title{
+        width: 16%;
+        height: 1%; 
+        margin-top: -15%;
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (max-width:768px)and (min-width:576px) {
+    .header-title .line-title{
+        width: 16%;
+        height: 1%; 
+        margin-top: -19%;
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (min-width:1200px)and (max-width:1400px) {
+    .header-title .line-title{
+        width: 8%;
+        height: 2%;
+        margin-top: -12%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header {
+        height: 75%;
+        width: 100%; 
+    }
+    .header-title .line-title{
+        width: 20%;
+        height: 2%;
+        margin-top: -16%;
+        margin-left: 10%;
+    }
+
+.p 
+{
+margin-top: 0px;
+}
+
+}
+@media screen and (min-width:300px) and (max-width:450px) {
+    .header
+{
+height: 72%;
+width: 100%; 
+}
+    /* headxer title styling */
+
+.header-title .title{
+     top: 50%;
+    left: 5%;
+    font-size: 3.4rem;
+ }
+
+
+.header-title .line-title{
+    width: 25%;
+    height: 1%;
+    margin-top: -65%;
+    margin-left: 7%;
+    background-color: red;
+}
+
+}

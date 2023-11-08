@@ -1,0 +1,1513 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+body
+{
+  height: auto;
+  width: 100%;
+}
+
+.row 
+{
+    margin: 0;
+    padding: 0;
+} 
+ .home-main 
+ {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image:url('../img/64188a87c1a0bf38da86e4b8_mundi\ 1.png');
+    background-blend-mode: exclusion;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-color: rgba(0, 7, 38,1);;
+    overflow: hidden;
+ 
+ }
+
+
+ .content-main
+ {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    background-color: rgba(0, 0, 0, 0.1);
+   
+    overflow: hidden;
+
+
+ }
+
+ .p{
+  text-align: justify;
+ }
+
+
+ /**************** start section left (flags) **********/
+ .left-side{
+   padding-left: 0%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+ .flags 
+ {
+ margin-top: 55%;
+display: flex;
+flex-direction: column;
+ background-image: url('../img/flags\ rec.png');
+background-position: 100% 100%;
+background-size: cover;
+align-items: center;
+justify-content: center;
+width: 40%;
+height: 100%;
+}
+
+ .flags img
+ {
+    width: 40%;
+    margin-bottom: 30%;
+ }
+
+ .middle-side
+ {
+    margin-top: 0%;
+
+ }
+
+ .middle-side h1
+ {
+color: #fff;
+font-family: 'Jawbreak-Sans';
+ font-size: 5.5rem;
+ font-weight: 700;
+ margin-top: 35%;
+
+ }
+
+#Laptop
+{
+   /* margin: auto; */
+   position: relative;
+   width: 100%;
+   height: 100%; 
+   top: 20%;
+   left: 0;
+   background-position: 100% 100%;
+   background-size: cover;
+   background-image: url('../img/tv.png');
+
+ }
+#inside-img img
+{
+   /* display: none; */
+
+   height: 48%;
+   width: 77%;
+   left: 9%;
+   top: 24%;
+   position: absolute;
+
+   transition: all 1s;
+
+}
+
+
+
+ .links-success 
+ {
+
+       width: 75%;
+    font-family: 'Jawbreak-Sans';
+   font-size: 2rem;
+   color: #fff;
+   
+    padding: 2% 10% 0% 0%;
+   position: absolute;
+   bottom: -2%; 
+   left: 0px;
+}
+.links-success img 
+{
+   width: 100%;
+}
+ 
+ /******** start section middle contact  ***********/
+
+ 
+
+ .right-side
+ {
+    /* display: flex; */
+    /* justify-content: e; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+ }
+
+.awards 
+ {
+   
+display: flex;
+flex-direction: column;
+background-image: url('../img/awards.png');
+background-size: cover;
+align-items: center;
+justify-content: center;
+width: 50%;
+margin-left: 55%;
+height: 120%;
+margin-top: 0%;
+ 
+
+}
+
+.awards img
+ {
+    width: 40%;
+    margin-bottom: 25px;
+ }
+
+
+
+ /********************* offer *****************/
+
+ .why-we-offer  ,.why-wy-choose
+ {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 7, 38,1);
+
+ 
+ }
+.layer-offer ,.layer-choose
+{
+    background-image: url('../img/Home\ second.png');
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 4%;
+}
+
+.layer-choose 
+{
+   background-image: url('../img/person-with-futuristi.png');
+}
+ 
+.img-title 
+ {
+    padding: 4%;
+    text-align: center;
+ }
+
+
+ /************* itDivision ************/
+
+ .why-we-offer a ,.why-wy-choose a
+ {
+   text-decoration: none;
+ }
+
+ .itDivision ,.education,.Project 
+ {
+    padding:25px ;
+    text-align: center;
+     
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(20deg,to left, rgb(167, 86, 66), #a02a07);
+    border-color:#F24E1E ;
+    border-bottom: none;
+     border-top: none;
+     padding: 5%;
+    border-radius: 70px;
+    transform: scale(0.97);
+  }
+
+ .itDivision h2 ,.education h2 ,.Project h2
+ {
+   color: #F24E1E;
+   font-family: "Poppins", Helvetica !important;
+
+   padding-top: 10px;
+ }
+
+ .itDivision p ,.education p ,.Project p 
+ {
+   color: #fff;
+   font-family: Poppins;
+   font-size: 18px;
+
+ }
+
+
+
+ /* choose us  */
+
+
+ .apart {
+   padding:25px ;
+   text-align: center;
+   background-image: url('../img/Rectangle\ 18.png');
+   
+   /* background-position: 100% 100%; */
+   background-repeat: no-repeat;
+   font-family: 'Poppins';
+   background-size: cover;
+
+ }
+
+
+ .apart h3 
+ {
+   color: #2968C5;
+font-family: Poppins;
+font-weight: 600;
+font-size: 36px;
+ }
+
+.unique-products
+{
+  color: #fff;
+  font-family: "Poppins", Helvetica !important;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(20deg,to left, rgb(167, 86, 66), #a02a07);
+  border-color:#F24E1E ;
+  border-bottom: none;
+   border-top: none;
+   padding: 5%;
+  border-radius: 70px;
+  transform: scale(0.97);
+  cursor: pointer;
+  transition: all .4s;
+  
+}
+.unique-products:hover
+{
+  transform: scale(1);
+}
+ .unique-products h2
+ {
+  font-size: 2rem;
+  text-align: center;
+  
+ }
+ 
+ .right-apart
+ {
+   padding:25px 35px ;
+   text-align: center;
+   background-image: url('../img/ee.png ');
+   
+   /* background-position: 100% 100%; */
+   background-repeat: no-repeat;
+   font-family: Poppins;
+   background-size: cover;
+ }
+
+ .right-apart p
+ {
+   font-size: 25px;
+   line-height: 38px;
+   color: #fff;
+ }
+
+
+
+ /* start scroll to top button  */
+.up-button {
+   display: none;
+   background-color: #FD3900;
+   border-radius: 4px;
+   width: 50px;
+   height: 50px;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   cursor: pointer;
+   transition: opacity 0.3s ease-in-out;
+   color: #fff;
+ }
+ 
+ .up-button:hover {
+   background-color: #F24E1E;
+ }
+ 
+ .up-button #to-top-button {
+  font-size: 1.5rem;
+   margin-left: 30%;
+   margin-top: 25%;
+ }
+/* end scroll to top button  */
+
+
+
+ @media screen and (max-width:1350px) and (min-width:992px)
+ 
+{
+   .itDivision ,.education,.Project 
+   {
+      padding:8px ;
+  
+   } 
+   .itDivision p ,.education p ,.Project p 
+   {
+     color: #fff;
+     font-family: Poppins;
+     font-size: 18px;
+    }
+
+    .itDivision img ,.education img ,.Project img 
+    {
+      width: 20%;
+    }
+
+    
+    #Laptop
+{
+    width: 100%;
+   height: 95%; 
+  }
+#inside-img img
+{
+   height: 50%;
+   width: 75%;
+   left: 12%;
+   top: 22%;
+ 
+
+}
+
+ .links-success 
+ {
+
+       width: 75%;
+    font-family: 'Jawbreak-Sans';
+   font-size: 2rem;
+   color: #fff;
+   
+    padding: 2% 10% 0% 0%;
+   position: absolute;
+   bottom: -2%; 
+   left: 0px;
+}
+.links-success img 
+{
+   width: 100%;
+}
+
+ .flags 
+ {
+ margin-top: 55%;
+ width: 60%;
+height: 100%;
+}
+
+ .flags img
+ {
+    width: 40%;
+    margin-bottom: 20%;
+
+ }
+
+ 
+ .middle-side h1
+ {
+ font-size: 4.5rem;
+ }
+
+ .awards 
+ {
+width: 60%;
+margin-left: 55%;
+height: 120%;
+}
+
+.awards img
+ {
+    width: 40%;
+    /* margin-bottom: 50px; */
+ }
+
+}
+
+
+@media screen and (max-width:1250px) and (min-width:1100px)
+ 
+{
+  
+
+   #Laptop
+   {
+       width: 100%;
+      height: 85%; 
+     }
+   #inside-img img
+   {
+      height: 50%;
+      width: 80%;
+      left: 7%;
+      top: 22%;
+    
+   
+   }
+   
+    .links-success 
+    {
+   
+          width: 75%;
+       font-family: 'Jawbreak-Sans';
+      font-size: 2rem;
+      color: #fff;
+      
+       padding: 2% 10% 0% 0%;
+      position: absolute;
+      bottom: -2%; 
+      left: 0px;
+   }
+   .links-success img 
+   {
+      width: 100%;
+   }
+   
+    .flags 
+    {
+    margin-top: 60%;
+    width: 70%;
+   height: 100%;
+   }
+   
+    .flags img
+    {
+       width: 45%;
+       margin-bottom: 20%;
+   
+    }
+   
+    
+    .middle-side h1
+    {
+    font-size: 4.5rem;
+    }
+   
+    .awards 
+    {
+   width: 70%;
+   margin-left: 45%;
+   height: 120%;
+   }
+   
+   .awards img
+    {
+       width: 40%;
+       /* margin-bottom: 50px; */
+    }
+ 
+
+    
+    
+ 
+}
+
+
+@media screen and (max-width:1100px) and (min-width:992px)
+ 
+{
+ 
+
+   #Laptop
+   {
+       width: 100%;
+      height: 75%; 
+     }
+   #inside-img img
+   {
+      height: 48%;
+      width: 76%;
+      left: 13%;
+      top: 24%;
+    
+   
+   }
+   
+    .links-success 
+    {
+   
+          width: 75%;
+       font-family: 'Jawbreak-Sans';
+      font-size: 2rem;
+      color: #fff;
+      
+       padding: 2% 10% 0% 0%;
+      position: absolute;
+      bottom: -2%; 
+      left: 0px;
+   }
+   .links-success img 
+   {
+      width: 100%;
+   }
+   
+    .flags 
+    {
+    margin-top: 65%;
+    width: 70%;
+   height: 100%;
+   }
+   
+    .flags img
+    {
+       width: 45%;
+       margin-bottom: 25%;
+   
+    }
+   
+    .middle-side
+    {
+      margin-top: 20%;
+    }
+    
+    .middle-side h1
+    {
+    font-size: 4.5rem;
+    }
+   
+    .awards 
+    {
+   width: 80%;
+   margin-left: 45%;
+   height: 125%;
+   }
+   
+   .awards img
+    {
+       width: 40%;
+       /* margin-bottom: 50px; */
+    }
+   
+    
+
+ .apart 
+ {
+   padding:20px ;
+ }
+
+
+ .apart h3 
+ {
+   font-size: 28px; 
+}
+
+ .unique-products ,.Experience ,.Services
+ 
+ {
+
+    padding: 0 10%;
+ }
+ .Experience 
+ {
+   margin-left: 8%;
+ }
+ .right-apart
+ {
+   padding:40px ;
+ 
+ }
+
+ .right-apart p
+ {
+   font-size: 20px;
+   /* text-align: justify; */
+ }
+ 
+}
+
+@media screen and (max-width:992px) and (min-width:850px)
+ 
+{
+
+   .home-main 
+   {
+       height: 70vh;
+ 
+   }
+  
+  
+   .content-main
+   {
+       height: 70vh;
+ 
+   }
+  
+ 
+   
+    
+    #Laptop
+{
+    width: 500px;
+   height: 400px; 
+   margin: auto;
+   top: 0%
+ }
+#inside-img img
+{
+   height: 58%;
+   width: 71%;
+   left: 16%;
+   top: 13%;
+ 
+
+}
+
+.flags 
+{
+   display: none;
+ }
+
+ .middle-side
+ {
+    margin-top: 0%;
+    margin: auto;
+    text-align: center;
+
+ }
+
+ .middle-side h1
+ {
+color: #fff;
+font-family: 'Jawbreak-Sans';
+ font-size: 2rem;
+ font-weight: 700;
+ margin-top: 5%;
+
+ }
+
+ .middle-side h1 >br 
+ {
+   display: none;
+ }
+ 
+.links-success 
+{
+
+      width: 75%;
+ 
+  
+   padding: 2% 10% 0% 0%;
+ 
+  bottom: 2%; 
+  left: 0px;
+}
+.links-success img 
+{
+  width: 100%;
+}
+
+
+
+.awards 
+{
+display: none;
+
+}
+
+ 
+
+.itDivision ,.education,.Project 
+{
+   padding:8px ;
+
+} 
+
+.itDivision h2 ,.education h2,.Project h2 
+{
+
+   font-size: 1.3rem;
+}
+
+
+.itDivision p ,.education p ,.Project p 
+{
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+ }
+
+ .itDivision img ,.education img ,.Project img 
+ {
+   width: 17%;
+ }
+
+    
+    
+
+ .apart 
+ {
+   padding:50px ;
+ }
+
+
+ .apart h3 
+ {
+   font-size: 22px; 
+   padding-left: 30px;
+   padding-top: 30px;
+}
+
+ .unique-products ,.Experience ,.Services
+ 
+ {
+
+    padding: 0 10%;
+ }
+ .Experience 
+ {
+   margin-left: 8%;
+ }
+ .right-apart
+ {
+   padding:40px ;
+ 
+ }
+
+ .right-apart p
+ {
+   font-size: 20px;
+   /* text-align: justify; */
+ }
+ 
+}
+ 
+@media screen and (max-width:850px) and (min-width:768px)
+ 
+{
+   
+ .home-main 
+   {
+       height: 70vh;
+ 
+   }
+  
+   .content-main
+   {
+       height: 70vh;
+ 
+   }
+    
+    #Laptop
+{
+    width: 500px;
+   height: 400px; 
+   margin: auto;
+   top: 0%
+ }
+#inside-img img
+{
+   height: 58%;
+   width: 71%;
+   left: 16%;
+   top: 13%;
+ 
+
+}
+
+.flags 
+{
+   display: none;
+ }
+
+ .middle-side
+ {
+    margin-top: 0%;
+    margin: auto;
+    text-align: center;
+
+ }
+
+ .middle-side h1
+ {
+color: #fff;
+font-family: 'Jawbreak-Sans';
+ font-size: 2rem;
+ font-weight: 700;
+ margin-top: 5%;
+
+ }
+
+ .middle-side h1 >br 
+ {
+   display: none;
+ }
+ 
+.links-success 
+{
+
+      width: 75%;
+ 
+  
+   padding: 2% 10% 0% 0%;
+ 
+  bottom: 2%; 
+  left: 0px;
+}
+.links-success img 
+{
+  width: 100%;
+}
+
+.awards 
+{
+display: none;
+
+}   
+
+.itDivision ,.education,.Project 
+{
+   padding:8px ;
+
+} 
+
+.itDivision h2 ,.education h2,.Project h2 
+{
+
+   font-size: 1.3rem;
+}
+
+
+.itDivision p ,.education p ,.Project p 
+{
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+ }
+
+ .itDivision img ,.education img ,.Project img 
+ {
+   width: 17%;
+ }
+ 
+
+ .apart 
+ {
+   padding:70px 5px ;
+ }
+
+
+ .apart h3 
+ {
+   font-size: 22px; 
+   padding-left: 30px;
+   padding-top: 30px;
+}
+
+ .unique-products ,.Experience ,.Services
+ 
+ {
+
+    padding: 0 10%;
+ }
+ .Experience 
+ {
+   margin-left: 8%;
+ }
+ .right-apart
+ {
+   padding:40px ;
+ 
+ }
+
+ .right-apart p
+ {
+   font-size: 20px;
+   /* text-align: justify; */
+ }
+ 
+}
+
+
+
+
+@media screen and (max-width:768px)  and (min-width:600px)
+ 
+{
+   .home-main , .content-main
+   {
+       height: 75vh;
+   }
+      
+    #Laptop
+    {
+      width: 400px;
+      height: 300px; 
+      margin: auto;
+      top: 10%
+   }
+
+   #inside-img img
+
+   {
+      height: 60%;
+      width: 72%;
+      left: 15%;
+      top: 8%;
+   }
+
+.flags 
+{
+   display: none;
+ }
+
+ .middle-side
+ {
+    /* margin-top: 150px; */
+    margin: auto;
+    text-align: center;
+
+ }
+
+ .middle-side h1
+ {
+color: #fff;
+font-family: 'Jawbreak-Sans';
+ font-size: 2rem;
+ font-weight: 700;
+ margin-top: 20%;
+
+ }
+
+ .middle-side h1 >br 
+ {
+   display: none;
+ }
+ 
+.links-success 
+{
+
+      width: 85%;
+ 
+  
+   padding: 2% 5% 0% 0%;
+ 
+  bottom: 0%; 
+  left: 0px;
+}
+.links-success img 
+{
+  width: 100%;
+}
+
+
+
+.awards 
+{
+display: none;
+
+}
+
+ 
+
+
+.img-offer
+{
+  width: 75%;
+}
+.itDivision ,.education,.Project 
+{
+   margin: 10%;
+   padding:5% ;
+
+} 
+
+.itDivision h2 ,.education h2,.Project h2 
+{
+
+   font-size: 1.6rem;
+}
+
+
+.itDivision p ,.education p ,.Project p 
+{
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+ }
+
+ .itDivision img ,.education img ,.Project img 
+ {
+   width: 20%;
+ }
+
+ .img-choose 
+ {
+   width: 90%;
+ }
+ 
+
+ 
+ .apart 
+ {
+   padding:70px 0px ;
+ }
+
+
+ .apart h3 
+ {
+   font-size: 25px; 
+   padding-left: 20px;
+   padding-top: 30px;
+}
+
+ .unique-products ,.Experience ,.Services
+ 
+ {
+
+    padding: 0 10%;
+ }
+ .Experience 
+ {
+   margin-left: 8%;
+ }
+ .right-apart
+ {
+   padding:40px ;
+ 
+ }
+
+ .right-apart p
+ {
+   font-size: 20px;
+   /* text-align: justify; */
+ }
+ 
+ 
+}
+
+ 
+@media screen and (max-width:600px) and (min-width:500px)
+ 
+{
+   .home-main , .content-main
+   {
+       height: 80vh;
+   }
+      
+    #Laptop
+    {
+      width: 400px;
+      height: 300px; 
+      margin: auto;
+      top: 10%
+   }
+
+   #inside-img img
+
+   {
+      height: 60%;
+      width: 72%;
+      left: 15%;
+      top: 8%;
+   }
+
+.flags 
+{
+   display: none;
+ }
+
+ .middle-side
+ {
+    /* margin-top: 150px; */
+    margin: auto;
+    text-align: center;
+
+ }
+
+ .middle-side h1
+ {
+color: #fff;
+font-family: 'Jawbreak-Sans';
+ font-size: 1.5rem;
+ font-weight: 700;
+ margin-top: 30%;
+
+ }
+
+ .middle-side h1 >br 
+ {
+   display: none;
+ }
+ 
+.links-success 
+{
+width: 100%;
+padding: 2% 5% 0% 0%;
+bottom: 0%; 
+left: 0px;
+}
+.links-success img 
+{
+  width: 100%;
+}
+
+
+.awards 
+{
+display: none;
+
+}
+
+ 
+.img-offer
+{
+  width: 90%;
+}
+
+.apart 
+{
+  padding:70px 0px ;
+}
+
+
+.apart h3 
+{
+  font-size: 25px; 
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.unique-products ,.Experience ,.Services
+
+{
+
+   padding: 0 10%;
+}
+.Experience 
+{
+  margin-left: 8%;
+}
+.right-apart
+{
+  padding:40px ;
+
+}
+
+.right-apart p
+{
+  font-size: 20px;
+  /* text-align: justify; */
+}
+
+
+}
+
+@media screen and (max-width:500px) and (min-width:350px)
+ 
+{
+  
+   
+   
+   .home-main , .content-main
+   {
+       height: 75vh;
+   }
+      
+    #Laptop
+    {
+      width: 300px;
+      height: 300px; 
+      margin: auto;
+      top: 10%
+   }
+
+   #inside-img img
+
+   {
+      height: 50%;
+      width: 80%;
+      left: 7%;
+      top: 24%;
+   }
+
+.flags 
+{
+   display: none;
+ }
+
+ .middle-side
+ {
+    /* margin-top: 150px; */
+    margin: auto;
+    text-align: center;
+
+ }
+
+ .middle-side h1
+ {
+color: #fff;
+font-family: 'Jawbreak-Sans';
+ font-size: 2rem;
+ font-weight: 700;
+ margin-top: 50%;
+
+ }
+
+ .middle-side h1 >br 
+ {
+   display: none;
+ }
+ 
+.links-success 
+{
+      width: 100%;
+   padding: 2% 5% 0% 0%;
+  bottom: 0%; 
+  left: 0px;
+}
+.links-success img 
+{
+  width: 90%;
+}
+
+
+
+.awards 
+{
+display: none;
+
+}
+
+ 
+
+ 
+.img-offer
+{
+  width: 90%;
+}
+
+.itDivision ,.education,.Project 
+{
+   margin: 10%;
+   padding:5% ;
+
+} 
+
+.itDivision h2 ,.education h2,.Project h2 
+{
+
+   font-size: 1.6rem;
+}
+
+
+.itDivision p ,.education p ,.Project p 
+{
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+ }
+
+ .itDivision img ,.education img ,.Project img 
+ {
+   width: 20%;
+ }
+
+ .img-choose 
+ {
+   width: 90%;
+ }
+ 
+ .apart 
+ {
+   padding:70px 0px ;
+ }
+
+
+ .apart h3 
+ {
+   font-size: 25px; 
+   padding-left: 20px;
+   padding-top: 30px;
+}
+
+ .unique-products ,.Experience ,.Services
+ 
+ {
+
+    padding: 0 10%;
+ }
+ .Experience 
+ {
+   margin-left: 8%;
+ }
+ .right-apart
+ {
+   padding:40px ;
+ 
+ }
+
+ .right-apart p
+ {
+   font-size: 20px;
+   /* text-align: justify; */
+ }
+ 
+}
+
+@media screen and  (max-width:350px)
+ 
+{
+    
+   
+   .home-main , .content-main
+   {
+       height: 70vh;
+   }
+      
+    #Laptop
+    {
+      width: 250px;
+      height: 250px; 
+      /* margin: auto; */
+      top: 10%
+   }
+
+   #inside-img img
+
+   {
+      height: 50%;
+      width: 80%;
+      left: 7%;
+      top: 24%;
+   }
+
+.flags 
+{
+   display: none;
+ }
+
+ .middle-side
+ {
+       margin: auto;
+    text-align: center;
+
+ }
+
+ .middle-side h1
+ {
+   font-size: 1.5rem;
+  margin-top: 60%;
+
+ }
+
+ .middle-side h1 >br 
+ {
+   display: none;
+ }
+ 
+.links-success 
+{
+
+      width: 100%;
+ 
+  
+   padding: 2% 5% 0% 0%;
+ 
+  bottom: 0%; 
+  left: 0px;
+}
+.links-success img 
+{
+  width: 100%;
+}
+
+
+
+.awards 
+{
+display: none;
+
+}
+
+ 
+
+.itDivision ,.education,.Project 
+{
+   margin: 10%;
+   padding:4% 2% ;
+
+} 
+
+.itDivision h2 ,.education h2,.Project h2 
+{
+
+   font-size: 1.2rem;
+}
+
+
+.itDivision p ,.education p ,.Project p 
+{
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+ }
+
+ .itDivision img ,.education img ,.Project img 
+ {
+   width: 20%;
+ }
+
+ .img-offer
+ {
+   width: 90%;
+ }
+
+ .img-choose 
+ {
+   width: 90%;
+ }
+ .apart 
+ {
+   padding:70px 0px ;
+ }
+
+
+ .apart h3 
+ {
+   font-size: 20px; 
+   padding-left: 20px;
+   padding-top: 30px;
+}
+
+ .unique-products ,.Experience ,.Services
+ 
+ {
+
+    padding: 0 10%;
+ }
+ .Experience 
+ {
+   margin-left: 8%;
+ }
+ .right-apart
+ {
+   padding:40px ;
+   text-align: justify;
+
+ }
+
+ .right-apart p
+ {
+   font-size: 15px;
+   /* text-align: justify; */
+ }
+ 
+}

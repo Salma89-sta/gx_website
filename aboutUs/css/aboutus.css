@@ -1,0 +1,212 @@
+body{
+    background-color: #00092F;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.rec{
+    position: absolute; 
+    background-image: url(../img/rectangleOverLayer.png);
+    width:100%; 
+    background-size: 100% 100%;
+    margin-top: 300px;
+    background-repeat: no-repeat;
+}
+.about-us-page{
+        position: relative;
+        height: 150vh;
+        height: 100%;
+        background-image: url("../img/bacjgroungImg.png");
+        background-repeat: no-repeat;
+} 
+
+/*  row one styling*/
+.rowone-custom{
+    padding-left: 10%;
+    margin-right: 0%;
+}
+
+.head-line{
+    margin-left: 30px;
+}
+.head-line .get{
+    font-size:8rem ;
+    font-family: 'Metal Gear Solid 2' ;
+    color: #F24E1E;
+}
+/* who we are styling */
+.get{
+    font-family: 'Metal Gear Solid 2' ;
+    font-size:5.5rem ;
+    color: #F24E1E;
+    margin: 0 0 0 0;
+    position: relative;
+}
+.tester
+{
+    position: absolute;
+    bottom: 24%;
+    z-index: -22    ;
+    background-color: #fff;
+    left: 0;
+    height: 12%;
+    width: 40%;
+}
+
+.head-line h2{
+    font-family: 'Metal Gear Solid 2' ;
+    font-size:8rem ;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #fff;
+}
+
+.for-content{
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    text-align: justify;
+    background-image: url('../img/UNDERtextrec.png');
+    background-repeat:no-repeat;
+    /* height:250%;  */
+    width: 92%; 
+}
+
+
+.right-side{
+    /* padding-left: 0%;
+    background-color: red; */
+    padding-top:10%;
+    display: flex;
+     align-items: center;
+    text-align: end;
+}
+
+
+/* image at right side styling */
+.right-side img{
+    height: 80%;
+    width: 100%;
+
+
+} 
+
+.rowtwo-custom{
+    margin-top: 1%;
+}
+
+
+/* second row styling */
+.ourconcepts{
+    font-size:4.5rem ;
+    font-family: 'Metal Gear Solid 2' ;
+    color: #FF5B00;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.hand-img{
+    display: flex;
+    justify-content: center;
+}
+/* start scroll to top button  */
+.up-button {
+    display: none;
+    background-color: #FD3900;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .up-button:hover {
+    background-color: #F24E1E;
+  }
+  
+  .up-button #to-top-button {
+   font-size: 1.5rem;
+    margin-left: 30%;
+    margin-top: 25%;
+  }
+/* end scroll to top button  */
+
+
+/* ---------------------------------------start media query--------------------------------------- */
+
+/* 300-450 */
+@media screen and (min-width:300px) and (max-width:450px) {
+    .ourconcepts{
+        font-size:2.3rem ;
+    }
+    .for-content{
+        padding-top: 5px;
+        font-size: .9rem;
+    }
+    .rec{
+        background-image: url(../img/rectangleOverLayer\ small.png);
+}
+}
+
+/* 450-576 */
+@media screen and (min-width:450px) and  (max-width:576px) {
+    
+    .ourconcepts{
+        font-size:3rem ;
+       
+    }
+
+}
+
+
+/* 576-768 */
+@media screen and (min-width:576px) and (max-width:768px) {
+    .ourconcepts{
+        font-size:2.9rem ;
+       
+    }
+
+    .right-side img{
+        height: 90%;
+        width: 60%;
+        margin-left: 10%;
+    } 
+  
+}
+
+
+@media screen and (min-width:768px)  and (max-width:992px) {
+    .ourconcepts{
+        font-size:3.9rem ;
+       
+    }
+
+    .right-side img{
+        height: 60%;
+        width: 100%;
+    } 
+}
+@media screen and (min-width:992px)and (max-width:1200px) {
+    .right-side img{
+        height: 50%;
+        width: 80%;
+    } 
+  
+    
+
+}
+
+@media screen and (min-width:1200px)and (max-width:1400px) {
+    .right-side img{
+        height: 60%;
+        width: 80%;
+    } 
+  
+  
+}
+

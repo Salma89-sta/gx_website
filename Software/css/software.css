@@ -1,0 +1,230 @@
+
+body{
+    background-color: #04092F;
+}
+
+/* bd styling  */
+.background{
+     position: relative;
+    height: 220vh;
+    width:100%;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+ /* header styling  */
+.logo{
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    width: 10%;
+}
+.back-button {
+    position: absolute;
+    background-color: #F24E1E;
+    border-radius: 4px;
+    top: 5%;
+    right: 10%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.back-button #i {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.header-title .title{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Metal Gear Solid 2";
+    font-size: 6.5rem;
+}
+
+ 
+
+ /* software-systems styling */
+.software-systems{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 12%;
+}
+
+.software-systems .card-custom {
+    background-color: transparent !important;
+    border: none !important;
+    width: 90%;
+ }
+
+.software-systems .card-custom img{
+    margin-top: 15%;
+}
+
+.spicial 
+{
+    width: 100%;
+ 
+}
+.software-systems .card-title-custom {
+    color: #FF5B00;
+    font-family: 'Keania One-Regular', Helvetica;
+    font-size: 5rem;
+}
+.software-systems p{
+    color: #fff;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+
+/* start scroll to top button  */
+.up-button {
+    display: none;
+    background-color: #FD3900;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff;
+}
+
+.up-button:hover {
+    background-color: #F24E1E;
+}
+
+.up-button #to-top-button {
+    font-size: 1.5rem;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+/* end scroll to top button  */
+
+
+/* ---------------------------------------start media query--------------------------------------- */
+
+
+
+@media screen and (max-width:992px) {
+ 
+        
+    .header-title .title{
+        top: 5%;
+        left: 25%;
+        color: #fff;
+        font-size: 5.5rem;
+     }
+     .logo{
+        left: 5%;
+        top: 3%;
+        width: 15%;
+    }
+    .software-systems{
+        position: absolute;
+        margin-top: 58%;
+        margin-left: 12%;
+    }
+    .background{
+        height: 320vh;
+        width:100%;
+    
+    }
+}
+
+
+@media screen and (min-width:576px)and (max-width:992px) {
+    .background{
+        height: 270vh;
+    }
+    .header-title .title{
+        top: 3%;
+        left: 25%;
+        color: #fff;
+        font-size: 5.5rem;
+     }
+     .logo{
+        left: 5%;
+        top: 2%;
+        width: 15%;
+    }
+    .back-button {
+      
+        top: 3%;
+       
+      }
+}
+
+@media screen and (max-width:576px) {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 60%;
+        width: 100%; 
+    }
+
+        
+    .header-title .title{
+        top: 5%;
+        left: 25%;
+        font-weight: 500;
+        font-size: 4rem;
+     }
+     .logo{
+        left: 5%;
+        top: 3%;
+        width: 15%;
+    }
+    .background{
+        height: 390vh;
+    }
+
+}
+@media screen and (min-width:300px) and (max-width:450px) {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 60%;
+        width: 100%; 
+    }
+
+    .header-title .title{
+    top: 5%;
+    left: 25%;
+    font-size: 3rem;
+ }
+ .logo{
+    left: 5%;
+    top: 3%;
+}
+.background{
+    height: 340vh;
+}
+}
+
+
+
+@media screen and (max-width:768px) 
+{
+    .background{
+        height: 340vh ;
+    }
+}
+ 

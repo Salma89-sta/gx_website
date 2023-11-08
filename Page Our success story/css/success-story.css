@@ -1,0 +1,890 @@
+@font-face {
+  font-family: 'Metal Gear Solid 2';
+  src: url('/fonts/MGS2.ttf') format('truetype');
+}
+
+.success-story
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 9, 47,.9);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-image: url('../img/Group\ 31.png');
+    /* opacity: 0.5; */
+    background-size: cover;
+ }
+
+ .title-heading 
+ {
+  font-weight: 500;
+  color: #fff;
+  font-family: "Metal Gear Solid 2";
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 5%;
+  letter-spacing: 1.9px;
+  /* line-height: 90%; */
+ }
+
+ .underline 
+ {
+  border-radius: 2px;
+  background: #FF5B00;
+  width: 25%;
+  height: 10px;
+  text-align: center;
+  margin: auto;
+ }
+
+ .gx-logo
+ {
+    width: 100%;
+ 
+    bottom: 2%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+ }
+ 
+ .tester
+ {
+  width: 192px; height: 100px;
+  transform: rotate(-45deg);
+
+ }
+ .tester image
+ {
+  width: 100%;
+  height: 100%;
+
+ }
+
+ .elements-one
+ {
+    position: absolute;
+    bottom: 7%;
+    left: 32%;
+ }
+
+ .elements-two
+ {
+    position: absolute;
+    bottom: 23%;
+    left: 25%;
+ }
+
+ .elements-three 
+ {
+    position: absolute;
+    bottom: 37%;
+    left: 18%;
+ }
+
+ .elements-four
+ {
+    position: absolute;
+    bottom: 40%;
+    left: 32%;
+ }
+ .elements-five
+ {
+    position: absolute;
+    bottom: 24%;
+    left: 38%;
+ }
+
+ .elements-six
+ {
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+
+ }
+
+ .elements-Seven
+ {
+
+   position: absolute;
+   bottom: 26%;
+   right: 36%;
+
+ }
+
+ .elements-eight
+ {
+   position: absolute;
+   bottom: 12%;
+   right: 29%;
+ }
+
+ .elements-nine
+ {
+   position: absolute;
+   bottom: 27%;
+   right: 22%;
+ }
+
+ .elements-ten 
+ {
+   position: absolute;
+   bottom: 41%;
+   right: 30%;
+ }
+ .elements-eleven
+ {
+   position: absolute;
+   bottom: 41%;
+   right: 16%;
+ }
+
+  .W-btns img
+  {
+    width: 90%;
+    cursor: pointer;
+  }
+
+  #lightboxcontainer 
+  {
+    position: fixed;
+    background-color: rgb(0, 0, 0 ,.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+     background-size: cover;
+
+  }
+
+  #lightboxcontaineritem 
+  {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    cursor: pointer;
+    margin: 0 20%;
+     /* transform: rotateY('280deg'); */
+  }
+
+  
+  #close ,#next,#prev
+  {
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+    /* padding: 10px; */
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 7, 38, 0);
+    border: none;
+    box-shadow: #da600f 0 0 5px ;
+    border-radius:25%;
+    
+  }
+
+  #next 
+  {
+    top: 50%;
+    right: 3%;
+  }
+
+  #prev
+  {
+    top: 50%;
+    left: 3%;
+  }
+  /************** media from 1350px to 1200px  ***********/
+
+@media screen and (min-width:1200px) and (max-width:1350px)
+
+{
+   
+    
+ .elements-one
+ {
+     bottom: 8%;
+    left: 32%;
+ }
+
+ .elements-two
+ {
+     bottom: 22%;
+    left: 24%;
+ }
+
+ .elements-three 
+ {
+     bottom: 34%;
+    left: 17%;
+ }
+
+ .elements-four
+ {
+     bottom: 35%;
+    left: 32%;
+ }
+ .elements-five
+ {
+     bottom: 23%;
+    left: 38%;
+ }
+
+ .elements-six
+ {
+     bottom: 36%;
+    left: 45%;
+ }
+
+ .elements-Seven
+ {
+
+    bottom: 23%;
+   right: 33%;
+
+ }
+
+ .elements-eight
+ {
+    bottom:10%;
+   right: 25%;
+ }
+
+ .elements-nine
+ {
+    bottom: 23%;
+   right: 18%;
+ }
+
+ .elements-ten 
+ {
+    bottom: 35%;
+   right: 27%;
+ }
+ .elements-eleven
+ {
+    bottom: 35%;
+   right: 10%;
+ }
+
+  .W-btns img
+  {
+    width: 80%;
+  }
+
+  .gx-logo
+ {
+   
+    bottom: .1%;
+   
+ }
+
+
+}
+
+  /************** media from 1100px to 1200px  ***********/
+
+
+@media screen and (min-width:1100px) and (max-width:1200px)
+
+{
+   
+   .elements-one
+ {
+     bottom: 9%;
+    left: 32%;
+ }
+
+
+ .elements-two
+ {
+     bottom: 20%;
+  }
+
+ .elements-three 
+ {
+     bottom: 32%;
+    left: 18%;
+ }
+
+ .elements-four
+ {
+     bottom: 31%;
+    left: 32%;
+ }
+ .elements-five
+ {
+     bottom: 21%;
+    left: 38%;
+ }
+
+ .elements-six
+ {
+     bottom: 33%;
+    left: 45%;
+ }
+
+ .elements-Seven
+ {
+   bottom: 23%;
+   right: 32%;
+ }
+
+ .elements-eight
+ {
+    bottom:13%;
+   right: 26%;
+ }
+
+ .elements-nine
+ {
+    bottom: 24%;
+   right: 19%;
+  }
+
+ .elements-ten 
+ {
+    bottom: 34%;
+   right: 26%;
+  }
+ .elements-eleven
+ {
+    bottom: 34%;
+   right: 12%;
+ }
+
+  .W-btns img
+  {
+    width: 70%;
+  }
+
+  .gx-logo img
+ {
+   width: 17%;
+   margin-left: 2%;
+    bottom: 0;
+  }
+
+  #lightboxcontaineritem 
+  {
+    width: 85%;
+    height: 100%;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    margin-top: 15%;
+
+  }
+
+
+}
+
+  /************** media from 1100px to 950px  ***********/
+
+@media screen and (min-width:950px) and (max-width:1100px)
+
+{
+   .elements-one
+   {
+       bottom: 9%;
+      left: 32%;
+   }
+  
+  
+ .elements-two
+ {
+     bottom: 21%;
+     left: 24%;
+   }
+
+ .elements-three 
+ {
+     bottom: 32%;
+    left: 17%;
+ }
+
+ .elements-four
+ {
+     bottom:34%;
+    left: 32%;
+ }
+ .elements-five
+ {
+     bottom: 22%;
+    left: 38%;
+ }
+ 
+ .elements-six
+ {
+     bottom: 35%;
+    left: 48%;
+ }
+
+ .elements-Seven
+ {
+   bottom: 25%;
+   right: 28%;
+ }
+
+ .elements-eight
+ {
+    bottom:14%;
+   right: 20%;
+ }
+
+ .elements-nine
+ {
+    bottom: 26%;
+   right: 12%;
+  }
+
+ .elements-ten 
+ {
+    bottom: 37%;
+   right: 20%;
+  }
+ .elements-eleven
+ {
+    bottom: 37%;
+   right: 4%;
+ }
+
+  .W-btns img
+  {
+    width: 70%;
+  }
+
+  .gx-logo img
+ {
+   width: 17%;
+   margin-left: 2%;
+    bottom: 0;
+  }
+
+  
+  #lightboxcontaineritem 
+  {
+    width: 90%;
+     background-size: 100% ;
+    background-repeat: no-repeat;
+    margin-top: 20%;
+
+  }
+
+
+}
+
+  /************** media from 950px to 750px  ***********/
+
+@media screen and (min-width:750px) and (max-width:950px)
+
+{
+   .elements-one
+   {
+       bottom: 9%;
+      left: 30%;
+   }
+  
+  
+ .elements-two
+ {
+     bottom: 21%;
+     left: 22%;
+   }
+
+ .elements-three 
+ {
+     bottom: 32%;
+    left: 13%;
+ }
+
+ .elements-four
+ {
+     bottom:30%;
+    left: 31%;
+ }
+ .elements-five
+ {
+    bottom: 20%;
+    left: 38%;
+ }
+ 
+ .elements-six
+ {
+     bottom: 40%;
+    left: 40%;
+ }
+
+ .elements-Seven
+ {
+   bottom: 29%;
+   right: 31%;
+ }
+
+ .elements-eight
+ {
+    bottom:16%;
+   right: 23%;
+ }
+
+ .elements-nine
+ {
+    bottom: 26%;
+   right: 14%;
+  }
+
+ .elements-ten 
+ {
+    bottom: 39%;
+   right: 24%;
+  }
+ .elements-eleven
+ {
+    bottom: 37%;
+   right: 4%;
+ }
+
+  .W-btns img
+  {
+    width: 65%;
+  }
+
+  .gx-logo img
+ {
+   width: 17%;
+   margin-left: 2%;
+    bottom: 0;
+  }
+
+  #lightboxcontaineritem 
+  {
+    width: 90%;
+     background-size: 100% ;
+    background-repeat: no-repeat;
+    margin-top: 30%;
+
+  }
+
+}
+
+  /************** media from 950px to 750px  ***********/
+
+  @media screen and (min-width:550px) and (max-width:750px)
+
+  {
+     
+   .elements-one
+   {
+       bottom: 9%;
+      left: 30%;
+   }
+  
+    
+   .elements-two
+   {
+       bottom: 19%;
+      left: 22%;
+    }
+  
+   .elements-three 
+   { 
+       bottom: 27%;
+      left: 13%;
+   }
+  
+   .elements-four
+   {
+       bottom: 27%;
+      left: 30%;
+   }
+   
+   .elements-five
+   {
+       bottom: 17%;
+      left: 38%;
+   }
+   .elements-six
+   {
+       bottom: 34%;
+      left: 40%;
+   }
+  
+   .elements-Seven
+   {
+      bottom: 25%;
+     right: 25%;
+   }
+  
+   .elements-eight
+   {
+      bottom:15%;
+     right: 17%;
+     
+    }
+  
+   .elements-nine
+   {
+     bottom: 23%;
+     right: 6%;
+      }
+  
+   .elements-ten 
+   {
+      
+     bottom: 32%;
+     right: 17%;
+     
+    }
+   .elements-eleven
+   {
+     bottom: 30%;
+     right:-3%;
+     }
+  
+    .W-btns img
+    {
+      width: 50%;
+    }
+  
+    .gx-logo img
+   {
+     width: 17%;
+     margin-left: 2%;
+      bottom: 0;
+    }
+  
+    #lightboxcontaineritem 
+  {
+    width: 100%;
+     background-size: 100% ;
+    background-repeat: no-repeat;
+    margin-top: 30%;
+
+  }
+  }
+  
+
+    /************** media from 550px to 400px  ***********/
+
+  @media screen and (min-width:400px) and (max-width:550px)
+
+  {
+     
+   .elements-one
+   {
+       bottom: 6%;
+      left: 29%;
+   }
+  
+    
+   .elements-two
+   {
+        bottom: 13%;
+      left: 20%;
+    }
+  
+   .elements-three 
+   { 
+        bottom: 20%;
+      left: 10%;
+   }
+  
+   .elements-four
+   {
+      bottom: 20%;
+      left: 29%;
+   }
+   
+   .elements-five
+   {
+        bottom: 13%;
+      left: 37%;
+   }
+   .elements-six
+   {
+      
+      bottom: 20%;
+      right: 15%;
+   }
+  
+   .elements-Seven
+   {
+       bottom: 6%;
+     right: -1%;
+   }
+  
+   .elements-eight
+   {
+       bottom:13%;
+     right: 8%;
+     
+    }
+  
+   .elements-nine
+   {
+      bottom: 13%;
+     right: -14%;
+      }
+  
+   .elements-ten 
+   {
+      
+      bottom: 20%;
+      right: -2%;
+     
+    }
+   .elements-eleven
+   {
+      bottom: 20%;
+     right:-23%;
+     }
+  
+    .W-btns img
+    {
+      width: 40%;
+    }
+  
+    .gx-logo img
+   {
+     width: 17%;
+     margin-left: 2%;
+      bottom: 0;
+    }
+  
+      
+    #lightboxcontaineritem 
+  {
+    width: 100%;
+     background-size: 100% ;
+    background-repeat: no-repeat;
+    margin-top: 30%;
+
+  }
+  
+  }
+  
+
+
+  /************** media from 400px to x-small  ***********/
+
+  @media screen and (max-width:400px) 
+
+  {
+
+   
+.success-story
+{
+  height: 450vh;
+ margin: auto;
+ text-align: center;
+ 
+}
+
+
+.elements-one
+{
+   position: relative;
+   bottom: 0%;
+   left: 0;
+}
+     
+    
+   .elements-two 
+   {
+      position: relative;
+       bottom: 0%;
+       left: 0;
+    }
+  
+    .allImages 
+    {
+      transform: rotate(45deg);
+    }
+   .elements-three  ,   .elements-four ,      .elements-five ,   .elements-six ,   .elements-Seven 
+   ,   .elements-nine ,   .elements-ten  ,   .elements-ten  ,   .elements-eleven 
+
+   {
+      position: relative;
+      bottom: 0%;
+      left: 0%;
+   }
+  
+  
+   .elements-eight 
+   {
+    position: relative;
+    bottom:10;
+    right: 0%;
+   }
+  
+ 
+  
+    .W-btns img
+    {
+      width: 65%;
+    }
+  
+    .gx-logo img
+  {
+    display: none;
+     width: 47%
+  }
+  
+    
+  #lightboxcontaineritem 
+  {
+    width: 100%;
+     background-size: 100% ;
+    background-repeat: no-repeat;
+    margin-top: 100%;
+    /* padding-top: 100px ; */
+
+  }
+  #close ,#next,#prev
+  {
+ 
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    /* padding: 10px; */
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 7, 38, 0);
+     box-shadow: #da600f 0 0 5px ;
+     
+  }
+
+  #next 
+  {
+    top: 40%;
+    right: 1%;
+  }
+
+  #prev
+  {
+    top: 40%;
+    left: 1%;
+  }
+  }
+   

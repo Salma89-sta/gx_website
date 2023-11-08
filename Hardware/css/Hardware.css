@@ -1,0 +1,349 @@
+@font-face {
+    font-family: 'Metal Gear Solid 2';
+    src: url('/fonts/MGS2.ttf') format('truetype');
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.dark-blue{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-color: #0B1143;
+    background-image: url(../img/header\ img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.logo{
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    width: 8%;
+}
+
+ 
+
+.back-button {
+    position: absolute;
+    background-color: #F24E1E;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+
+  .back-button #i {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+
+
+ .header-title .title{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Metal Gear Solid 2";
+    font-size: 5.5rem;
+ }
+.header-title .line-title{
+    width: 108px;
+    height: 2px;
+    margin-top: -44%;
+    margin-left: 1%;
+}
+
+
+
+/* start scroll to top button  */
+.up-button {
+    display: none;
+    background-color: #FD3900;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .up-button:hover {
+    background-color: #F24E1E;
+  }
+  
+  .up-button #to-top-button {
+   font-size: 1.5rem;
+    margin-left: 30%;
+    margin-top: 25%;
+  }
+/* end scroll to top button  */
+
+
+
+
+.main
+{
+    width: 100%;
+    height: auto;
+    background-color: #0B1143;
+    color: #fff;
+    padding-top: 4%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+ }
+ .border-middle
+ {
+    position: absolute;
+    top:0;
+    left: 50%;
+    width: .5%;
+    height: 95%;
+}
+.border-middle img 
+{
+    width: 100%;
+    height: 100%;
+}
+ul
+{
+    list-style: none;
+}
+.btn-click
+
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all .3s;
+}
+a:hover
+{
+    color: #F24E1E;
+}
+li{
+    padding: 2% 0;
+}
+
+
+.information-main
+
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+ 
+.hero-logo ,.virdi-logo
+{
+    margin-left: 20%;
+ width: 40%;
+ margin-bottom: 10px;
+}
+
+.virdi-logo
+{
+    margin-left: 10%;
+}
+
+.virdi
+{
+     text-align: center;
+}
+
+ 
+
+/************ data *********/
+
+.data-information img  
+{
+    width: 90%;
+
+}
+.data-information
+{
+ 
+    padding-bottom: 10%;
+    display: none;
+    transition: all 1s;
+}
+.show
+{
+    display: flex;
+}
+.data-information .pdf 
+{
+    margin-top: 10% ;
+    margin-left: .4%;
+    width: 12%;
+    height: 12%
+}
+
+/* .main-data
+{
+    border: 3px solid #fff;
+
+
+} */
+/* ---------------------------------------start media query--------------------------------------- */
+
+
+@media screen and (min-width:992px)and (max-width:1200px) {
+    .header-title .line-title{
+        width: 8%;
+        height: 2%;
+        margin-top: -28%;
+        margin-left: 5%;
+    }
+}
+
+
+
+@media screen and (max-width:992px) {
+    .header-title .line-title{
+        width: 8%;
+        height: 2%;
+        margin-top: -28%;
+        margin-left: 5%;
+    }
+        
+    .header-title .title{
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        font-weight: 500;
+        color: #fff;
+        font-family: "Metal Gear Solid 2";
+        font-size: 5.5rem;
+     }
+     .logo{
+        position: absolute;
+        left: 5%;
+        top: 8%;
+        width: 15%;
+    }
+
+    .border-middle
+    {
+ 
+       left: 45%;
+ 
+    }
+
+ .btn-click
+
+{
+    font-size: 1rem;
+}
+ 
+}
+
+
+@media screen and (min-width:1200px)and (max-width:1400px) {
+    .header-title .line-title{
+        width: 8%;
+        height: 2%;
+        margin-top: -32%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+
+.header 
+{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 60%;
+        width: 100%; 
+}
+.header-title .line-title{
+        width: 8%;
+        height: 2%;
+        margin-top: -55%;
+        margin-left: 10%;
+}
+        
+.header-title .title{
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        font-weight: 500;
+        color: #fff;
+        font-family: "Metal Gear Solid 2";
+        font-size: 4rem;
+}
+.logo{
+        position: absolute;
+        left: 5%;
+        top: 8%;
+        width: 15%;
+}
+
+.border-middle
+{
+ 
+       left: 45%;
+ 
+}
+
+.btn-click
+{
+    font-size: .9rem;
+}
+}
+
+
+@media screen and (min-width:300px) and (max-width:450px) {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 60%;
+        width: 100%; 
+    }
+    .header-title .line-title{
+        width: 8%;
+        height: 2%;
+        margin-top: -15%;
+        margin-left: 10%;
+    }
+
+    
+    .header-title .title{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Metal Gear Solid 2";
+    font-size: 3rem;
+ }
+ .logo{
+    position: absolute;
+    left: 5%;
+    top: 8%;
+    width: 15%;
+}
+
+.btn-click
+{
+    font-size: .8rem;
+}
+
+} 

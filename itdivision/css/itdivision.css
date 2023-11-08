@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Metal Gear Solid 2';
+    src: url('/fonts/MGS2.ttf') format('truetype');
+  }
+body{
+    background-color: #0B1143;
+    overflow-x: hidden !important;
+    width: 100% !important;
+    margin: 0 !important; 
+    padding: 0 !important;
+    left: 0 !important;
+    right: 0 !important ;
+}
+a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+/* header styling */
+ 
+/* back to the last page button styling */
+.back-button {
+    position: absolute;
+    background-color: #F24E1E;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    /* top: -100%; */
+    right: 0%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 444;
+}
+
+.back-button #i {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.back-button {
+    position: absolute;
+    background-color: #F24E1E;
+    border-radius: 4px;
+    top: 20%;
+    right: 10%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .header
+  {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+     background-image: url('../img/header\ img.png');
+      background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 100% 100%;
+    width: 100%;
+    height: 90vh;
+  }
+  .back-button #i {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .prgraph-title
+  {
+    /* margin: 0 10%; */
+    margin-top: 80px;
+    color: #fff;
+    background-image: url('../img/UNDERtextrec.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    font-family: "Poppins", Helvetica;
+    font-size: 1.4rem;
+    text-align: justify
+  }
+
+ .header-title .title{
+ 
+    font-weight: 500;
+    color: #fff;
+    font-family: "Metal Gear Solid 2";
+    font-size: 4.5rem;
+    z-index: 2;
+    margin-top: 25%;
+    margin-left: 5%;
+ }
+ .title::after
+ {
+    display: block;
+    content: " ";
+    width: 140px;
+    height: 8px;
+    margin-left: 10px;
+    background-color: #F24E1E;
+ }
+/* our innovation group stying  */
+ 
+.our-group 
+{
+     background-image: url('../img/centerimage.png');
+     background-size: cover;
+    position: relative;
+    text-align: center;
+    margin: 3% 20%;
+    transition: transform 0.5s ease; 
+    cursor: pointer;
+}
+
+.our-group:hover {
+    transform: scale(0.9); 
+}
+
+.our-group h3
+{
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: #ffffff;
+  }
+
+.our-group h1 
+{
+    font-family: 'Keania One-Regular', Helvetica;
+    font-weight: 400;
+    color: #fc3900;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.so-hd
+{
+   text-align: center;
+}
+ 
+ .Software ,.hardware
+ {
+    /* background-image: url('../img/Rectangle\ 26.svg'); */
+    background-size: cover;
+    font-family: "Jawbreak-Sans", Helvetica;
+    color: #fff;
+    background-repeat: no-repeat;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(20deg,to left, rgb(167, 86, 66), #a02a07);
+    border-color:#F24E1E ;
+    border-bottom: none;
+     border-top: none;
+     /* padding: 5%; */
+    border-radius: 70px;
+    transform: scale(0.97);
+    margin: 0 15%;
+    padding-bottom: 7%;
+ }
+
+  
+
+     .Software h6 ,.hardware h6
+     {
+        font-family: "Poppins", Helvetica;
+        font-weight: 500;
+        font-size: 1.6rem;
+         padding-left: 2%;
+    }
+     .Software h1 ,.hardware  h1{
+        padding-left: 2%;
+        font-size: 2.4rem;
+     padding-top: 25px;
+        }
+
+  .Software:hover,.hardware:hover
+  {
+    transition: 0.5s ease;
+    background-image: url(../img/Rectangle\ 26\ hover.svg);
+  } 
+
+ 
+
+/* start scroll to top button  */
+.up-button {
+    display: none;
+    background-color: #FD3900;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .up-button:hover {
+    background-color: #F24E1E;
+  }
+  
+  .up-button #to-top-button {
+   font-size: 1.5rem;
+    margin-left: 30%;
+    margin-top: 25%;
+  }
+/* end scroll to top button  */
+ 
+
+
+@media screen and (max-width:992px) 
+{
+    
+ .header-title .title
+ {
+  font-size: 4rem;
+  position: absolute;
+  bottom:10px;
+  left: 10px;
+  margin: 0;
+}
+.header
+{
+   background-position: 50% 50%;
+  width: 100%;
+  height: 90vh;
+}
+}
+
+
+@media screen and (max-width:768px) 
+{
+
+
+ .header
+{
+   background-position: 55% 80%;
+  width: 100%;
+  height: 90vh;
+}
+}
+
+
+
+@media screen and (max-width:500px) 
+{
+  .header-title .title
+  {
+   font-size: 4rem;
+   position: absolute;
+   top:20%;
+   left: 30%;
+   margin: 0;
+ }
+.header
+{
+   background-position: 65% 100%;
+  width: 100%;
+  height: 90vh;
+}
+
+.title::after
+{
+width: 100px;
+height: 5px;
+margin-left: 5px 
+}
+}
