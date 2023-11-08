@@ -43,11 +43,11 @@ body{
     height: 20px;
 
 }
-.header-title h6 
+.header-title h6
 {
-    font-size: 3rem; 
+    font-size: 4.5rem; 
     position: absolute;
-    bottom: 12%;
+    bottom: 6%;
     left: 10%;
     font-weight: 500;
 }

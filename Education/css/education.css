@@ -69,6 +69,17 @@ width: 100%;
 }
 
 
+.headericoncoursec
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* background-color: #FD3900; */
+}
+.headericoncoursec img 
+{
+    width: 80%;
+}
 /* start scroll to top button  */
 .up-button {
     display: none;
@@ -119,13 +130,15 @@ width: 100%;
 .Certified h1
 {
 text-align: center;
-font-size: 3.0rem;
+font-size: 3.5rem;
 }
 
 .underline-title 
 {
-    background-color: #F24E1E;
-    width: 50%;
+    /* background-color: #F24E1E; */
+    background-image: linear-gradient(to right,   #F24E1E ,rgb(242, 78, 28, 30%));
+
+    width: 60%;
     height: 3px;
     margin: auto;
 }

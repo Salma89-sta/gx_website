@@ -10,7 +10,6 @@ const pics =[
     "img/Group 87.png",
     "img/Group 88.png",
     "img/10d 2.png",
-    "img/6d 1.png",
      "img/BID 2012 2.png",
  
  ];

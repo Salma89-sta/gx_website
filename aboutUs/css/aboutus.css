@@ -15,7 +15,7 @@ body{
 }
 .about-us-page{
         position: relative;
-        height: 150vh;
+        /* height: 150vh; */
         height: 100%;
         background-image: url("../img/bacjgroungImg.png");
         background-repeat: no-repeat;
@@ -65,7 +65,7 @@ body{
     color: #ffffff;
     font-size: 1.2rem;
     padding-top: 5px;
-    padding-bottom: 8px;
+    padding-bottom: 1px;
     text-align: justify;
     background-image: url('../img/UNDERtextrec.png');
     background-repeat:no-repeat;
@@ -74,13 +74,12 @@ body{
 }
 
 
-.right-side{
-    /* padding-left: 0%;
-    background-color: red; */
-    padding-top:10%;
-    display: flex;
-     align-items: center;
-    text-align: end;
+.right-side
+{
+padding-top:5%;
+display: flex;
+align-items: center;
+text-align: end;
 }
 
 
