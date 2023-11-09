@@ -127,7 +127,21 @@ width: 100%;
     /* border-left: 1px solid #F24E1E; */
     margin-top: 50px;
 }
-
+.Our-Partners
+{
+    color: #F24E1E;
+    font-family: "Metal Gear Solid 2";
+    font-size: 3rem;
+}
+.Our-Partners::after
+{
+    content: " ";
+    background-color: #fff;
+    display: block;
+    width: 20%;
+    height: 2px;
+    margin: auto;
+}
 .Certified h1
 {
 text-align: center;
