@@ -143,12 +143,11 @@ font-family: 'Jawbreak-Sans';
 {
   border-radius: 35px;
   margin-top: 30px;
-  border: 1.2px solid #F35628;
-  border-left: none;
-  border-right: none;
-  /* background-color: #ddd; */
-  background-color: rgba(222, 222, 222,0.1);
-  text-align: center;
+  padding-right: 15%;
+  /* border: 1.2px solid #F35628; */
+ 
+   /* background-color: rgba(222, 222, 222,0.1); */
+  text-align:end;
 }
 
 .s img
