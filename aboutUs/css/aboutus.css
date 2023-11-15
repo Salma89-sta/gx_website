@@ -23,8 +23,9 @@ body{
 
 /*  row one styling*/
 .rowone-custom{
-    padding-left: 10%;
+    padding-left: 0%;
     margin-right: 0%;
+    /* margin-top: ; */
 }
 
 .head-line{
