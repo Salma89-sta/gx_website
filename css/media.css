@@ -27,7 +27,7 @@
   .navbar-header
   {
     top: -1%;
-    padding:10px 90px 0 0 ;
+    padding:10px 65px 0 0 ;
      position: absolute ;
  
   border-right: 3px solid #F24E1E;
@@ -62,7 +62,7 @@
     }
 .outsideLinks 
 {
-     padding: 0px 25px;
+     padding: 0px 15px;
 
 
 }
