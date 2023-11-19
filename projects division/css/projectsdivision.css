@@ -18,6 +18,7 @@ body{
      height: 80vh;
      background-image: url('../img/header\ img.png');
      background-position: 50% 50%;
+     background-color: rgba(0, 0, 0,1);
      
 }
 .header-title
