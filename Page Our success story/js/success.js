@@ -23,7 +23,7 @@ for(var i=0;i<img.length;i++)
        console.log(currentindex)
 
 
-       lightboxcontaineritem.style.backgroundImage="url("+replace[currentindex-2]+")";
+       lightboxcontaineritem.style.backgroundImage="url("+replace[currentindex-1]+")";
        lightboxcontainer.style.display="flex";
 
    })
