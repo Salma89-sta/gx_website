@@ -54,27 +54,27 @@ body
 
 
  /**************** start section left (flags) **********/
- .left-side{
+ /* .left-side{
    padding-left: 0%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-}
+} */
  .flags 
  {
- margin-top: 20%;
+ margin-top: 80%;
 display: flex;
 flex-direction: column;
- background-image: url('../img/flags\ rec.png');
-background-position: 100% 100%;
-background-size: cover;
 align-items: center;
-justify-content: end;
-width: 40%;
-height: 90%;
+width: 50%;
+/* background-color: gold; */
+ 
+background-image: linear-gradient(to top, gray ,transparent);
+ border: none ;
+ border-radius: 0px 0px 30px 30px ;
+
 }
 
  .flags img
  {
-    width: 40%;
-    margin-bottom: 20%;
+     margin-top: 12px;
  }
 
  .middle-side
@@ -155,39 +155,30 @@ font-family: 'Jawbreak-Sans';
 
  
 
- .right-side
- {
-    /* display: flex; */
-    /* justify-content: e; */
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 0;
- }
+  
+  
 
-.awards 
+ .awards 
  {
    
-display: flex;
-flex-direction: column;
-background-image: url('../img/Group\ 47.png');
-background-size: cover;
-align-items: center;
-justify-content: center;
-width: 50%;
-margin-left: 55%;
-height: 100%;
-margin-top: 0%;
- 
-
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  background-image: linear-gradient(to top, gray ,transparent);
+ border: none ;
+ border-radius: 0px 0px 40px 40px ;
 }
+
 
 .awards img
  {
-    width: 40%;
-    margin-bottom: 25px;
- }
-
+  width: 45%;
+    margin-top: 25px;
+ } 
 
 
  /********************* offer *****************/
@@ -423,39 +414,26 @@ font-size: 36px;
 {
    width: 100%;
 }
-
- .flags 
- {
- margin-top: 55%;
- width: 60%;
-height: 100%;
-}
-
- .flags img
- {
-    width: 40%;
-    margin-bottom: 20%;
-
- }
-
  
  .middle-side h1
  {
  font-size: 4.5rem;
  }
-
+ 
  .awards 
- {
-width: 60%;
-margin-left: 55%;
-height: 120%;
+ { 
+  margin-top: 5%;
+  /* margin-left: 45%; */
+  width: 55%;
+  border-radius: 0px 0px 70px 70px ;
 }
+
 
 .awards img
  {
-    width: 40%;
-    /* margin-bottom: 50px; */
- }
+  width: 55%;
+  margin-top: 15px;
+ } 
 
 }
 
@@ -497,21 +475,17 @@ height: 120%;
    {
       width: 100%;
    }
-   
-    .flags 
-    {
-    margin-top: 60%;
-    width: 70%;
-   height: 100%;
+ 
+  .flags
+  {
+    padding: 10px; 
+
+  }
+   .flags img
+   {
+       margin-top: 20px;
    }
-   
-    .flags img
-    {
-       width: 45%;
-       margin-bottom: 20%;
-   
-    }
-   
+  
     
     .middle-side h1
     {
@@ -520,17 +494,18 @@ height: 120%;
    
     .awards 
     {
-   width: 70%;
-   margin-left: 45%;
-   height: 120%;
+      padding: 10px; 
+     margin-top: 5%;
+      width: 60%;
+     border-radius: 0px 0px 70px 70px ;
    }
+   
    
    .awards img
     {
-       width: 40%;
-       /* margin-bottom: 50px; */
-    }
- 
+     width: 65%;
+     margin-top: 15px;
+    } 
 
     
     
@@ -576,21 +551,17 @@ height: 120%;
       width: 100%;
    } */
    
-    .flags 
+   .flags 
     {
-    margin-top: 65%;
-    width: 70%;
-   height: 100%;
+    margin-top: 150px;
    }
-   
-    .flags img
+     .flags img
     {
-       width: 45%;
-       margin-bottom: 25%;
+        margin-top: 12px;
+        padding:0 20px;
    
     }
-   
-    .middle-side
+     .middle-side
     {
       margin-top: 20%;
     }
@@ -602,16 +573,18 @@ height: 120%;
    
     .awards 
     {
-   width: 80%;
-   margin-left: 45%;
-   height: 125%;
+      padding: 10px; 
+     margin-top: 5%;
+      width: 60%;
+     border-radius: 0px 0px 70px 70px ;
    }
+   
    
    .awards img
     {
-       width: 40%;
-       /* margin-bottom: 50px; */
-    }
+     width: 75%;
+     margin-top: 15px;
+    } 
    
     
 
