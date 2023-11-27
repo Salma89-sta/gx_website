@@ -241,7 +241,14 @@ margin-top: 0%;
      border-top: none;
      padding: 5%;
     border-radius: 70px;
-    transform: scale(0.97);
+    transform: scale(0.90);
+    transition: all .5s;
+  }
+
+  .itDivision:hover ,.education:hover,.Project:hover
+  {
+    transform: scale(1);
+
   }
 
  .itDivision h2 ,.education h2 ,.Project h2
