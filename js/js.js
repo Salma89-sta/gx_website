@@ -5,12 +5,12 @@
 
 
 const pics =[
-    "img/ai-cloud-concept-with-robot-arm 2.png ",
-    "img/anniversarry copy 1.png", 
-    "img/Group 87.png",
-    "img/Group 88.png",
-    "img/10d 2.png",
-     "img/BID 2012 2.png",
+    "img/Laptop (1).png",
+    "img/Laptop (2).png", 
+    "img/Laptop (3).png",
+    "img/Laptop (4).png",
+    "img/Laptop (5).png",
+    "img/Laptop.png",
  
  ];
 
@@ -21,11 +21,11 @@ setInterval(function(){
 
     cartona =  ` 
     
-          <img src="${pics[a]}">
+          <img src="${pics[a]}" >
              
                  `
         
-        document.getElementById('inside-img').innerHTML=cartona
+        document.getElementById('lab').innerHTML=cartona
     
 
 },2000)
